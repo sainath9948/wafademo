@@ -1,0 +1,9 @@
+{
+	"name": "tradf14",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7148309a-7408-4981-a478-c24de669f958",
+		"tenantId": "9ff1a37b-3ccd-4626-9b74-e6a00f04ae5a"
+	}
+}

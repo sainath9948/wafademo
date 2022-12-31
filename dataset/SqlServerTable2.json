@@ -1,0 +1,26 @@
+{
+	"name": "SqlServerTable2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServer1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "col1",
+				"type": "varchar"
+			},
+			{
+				"name": "col2",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "tbl1"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
